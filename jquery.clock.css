@@ -1,0 +1,114 @@
+/*
+@author     Kathy Tang
+*/
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #BBDDFF;
+}
+.j_clock {
+    width: 680px;
+    height: 680px;
+    border-radius: 50%;
+    border: 50px solid #fff;
+    margin: 60px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.j_clock:before {
+    content: "";
+    border: 8px solid #fff;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    margin: -16px 0 0 -16px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.j_hour, .j_minute, .j_second {
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: 0;
+    margin-top: -3px; 
+}
+.j_hour {
+    width: 180px;
+    height: 15px;
+    border-radius: 10px;
+}
+.j_minute {
+    width: 220px;
+    height: 10px;
+    border-radius: 5px;
+}
+.j_second {
+    width: 260px;
+    height: 5px;
+    border-radius: 2px;
+}
+.j_clock_hour {
+    display: block;
+    width: 20px;
+    height: 560px;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -10px;
+}
+.j_clock_hour:before {
+    background-color: #fff;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+.j_clock_hour_1 {
+    transform: rotate(30deg);
+}
+.j_clock_hour_2 {
+    transform: rotate(60deg);
+}
+.j_clock_hour_3 {
+    transform: rotate(90deg);
+}
+.j_clock_hour_3 {
+    transform: rotate(90deg);
+}
+.j_clock_hour_4 {
+    transform: rotate(120deg);
+}
+.j_clock_hour_5 {
+    transform: rotate(150deg);
+}
+.j_clock_hour_6 {
+    transform: rotate(180deg);
+}
+.j_clock_hour_7 {
+    transform: rotate(210deg);
+}
+.j_clock_hour_8 {
+    transform: rotate(240deg);
+}
+.j_clock_hour_9 {
+    transform: rotate(270deg);
+}
+.j_clock_hour_10 {
+    transform: rotate(300deg);
+}
+.j_clock_hour_11 {
+    transform: rotate(330deg);
+}
+.j_clock_hour_12 {
+    transform: rotate(0deg);
+}
+
